@@ -1,3 +1,22 @@
+:root {
+  --background-llamada-mobile: #0f0f0f;
+  --background-blanco: #FFFFFF;
+  --background-ceniza-claro: #F7F4F4;
+  --background-ceniza-medio: #D9D9D9;
+  --border-cabecera-mobile: #ff7396;
+  --button-call: #ff3366;
+  --fuente-ceniza-claro: #666666;
+  --fuente-ceniza-oscuro: #4F4C4C;
+  --planes-card-start:  #ff809f;
+  --planes-card-ultra: #9875ff;
+  --planes-card-mega: #ff75ba;
+  --fuente-enlace: #7598ff;
+  --background-footer: #0f0f0f;
+  --ubuntu:'Ubuntu', sans-serif;
+  --roboto:'Roboto', sans-serif;
+  }
+  
+
 .diferenciales {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -15,7 +34,7 @@
   padding: 2em 2em 0 3em;
 }
 
- img {
+img {
   max-width: 100%;
   margin: 10px;
 }
@@ -30,4 +49,10 @@
 
 .item__texto {
   line-height: normal;
+}
+
+.diferenciales__item-icon {
+ padding-top: 15px;
+ color: var(--border-cabecera-mobile);
+ font-size: 40px;
 }

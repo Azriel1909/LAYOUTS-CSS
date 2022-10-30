@@ -16,38 +16,44 @@
   --roboto:'Roboto', sans-serif;
 }
 
-
-.contacto {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  background-color: var(--background-footer);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.contacto__titulo {
-  color: var(--fuente-ceniza-oscuro);
-  font-weight: 700;
-  font-size: 1.5rem;
-  font-family: var(--montserrat);
-  text-transform: uppercase;
-  text-align: center;
-
-  margin-bottom: 1.25rem;
+.footer__social {
+  display: flex;
 }
 
-.contacto__boton {
-  margin-top: 1.25rem;
-  background-color: var(--button-call);
+.footer__midia {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 2rem 1rem;
+}
+
+.footer__navegacion {
   color: var(--background-blanco);
-  font-weight: bold;
-  border-radius: 10px;
-  padding: 20px 30px;
+  text-align: center;
+  line-height: 1;
 }
 
-.contacto__boton:hover {
-  color: var(--button-call);
-  background-color: var(--background-blanco);
-  border: 2px solid var(--button-call);
+
+.footer__enlace {
+  display: inline-block;
+  margin: 0 .5rem .7rem;
+  color: var(--background-blanco);
+}
+
+.footer__icon {
+  font-size: 40px;
+  color: var(--border-cabecera-mobile);
+}
+
+.footer__logo {
+  max-width: 350px;
 }
