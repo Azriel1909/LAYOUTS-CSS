@@ -1,3 +1,47 @@
+:root {
+--background-llamada-mobile: #0f0f0f;
+--background-blanco: #FFFFFF;
+--background-ceniza-claro: #F7F4F4;
+--background-ceniza-medio: #D9D9D9;
+--border-cabecera-mobile: #ff7396;
+--button-call: #ff3366;
+--fuente-ceniza-claro: #666666;
+--fuente-ceniza-oscuro: #4F4C4C;
+--planes-card-start:  #ff809f;
+--planes-card-ultra: #9875ff;
+--planes-card-mega: #ff75ba;
+--fuente-enlace: #7598ff;
+--background-footer: #0f0f0f;
+--ubuntu:'Ubuntu', sans-serif;
+--roboto:'Roboto', sans-serif;
+}
+
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: var(--ubuntu);
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.boton {
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  background-color: var(--border-cabecera-mobile);
+  text-transform: uppercase;
+  color: #0f0f0f;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton:hover {
+  cursor: pointer;
+  border: 1px solid;
+  background-color: var(--background-footer);
+  color: var(--background-blanco);
 }
