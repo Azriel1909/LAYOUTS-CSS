@@ -29,7 +29,7 @@
 }
 
 .diferenciales__item {
-  max-width: 400px;
+  max-width: 500px;
   box-sizing: border-box;
   padding: 2em 2em 0 3em;
 }
@@ -52,7 +52,18 @@ img {
 }
 
 .diferenciales__item-icon {
- padding-top: 15px;
- color: var(--border-cabecera-mobile);
- font-size: 40px;
+  padding-top: 15px;
+  color: var(--border-cabecera-mobile);
+  font-size: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .diferenciales {
+      background-color: var(--background-ceniza-claro);
+  }
+  .diferenciales__lista {
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: nowrap;
+  }
 }

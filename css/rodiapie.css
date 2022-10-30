@@ -57,3 +57,15 @@
 .footer__logo {
   max-width: 350px;
 }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .footer__navegacion {
+      text-align: left;
+      min-width: 600px;
+  }
+}
